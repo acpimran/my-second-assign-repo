@@ -46,9 +46,17 @@ bannner text css
     cursor: pointer;
     margin-top: 20px;
     transition: .5s;
+    animation: exel 6s;
+}
+@keyframes exel {
+    0% {background-color: aqua;}
+    25% {background-color: red;}
+    50% {background-color: whitesmoke;}
+    100% {background-color: blue;}
 }
 .banner-text button:hover{
     background-color: transparent;
+    transform: scale(2,2);
 }
 /* 
 banner image fluid
